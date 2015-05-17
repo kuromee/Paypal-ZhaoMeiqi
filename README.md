@@ -3,12 +3,10 @@
 The project simply implements a purchasing scenario with Paypal's Express Checkout API.
 
 The main files are:
-index.jsp
-complete.jsp
-failed.jsp
-Test.java
-
-where,
+index.jsp,
+complete.jsp,
+failed.jsp,
+Test.java, where,
 
 index.jsp indicates the portal of the website. It allows users to choose the items they want to pay for. The main codes lie in the file Test.java, which serves as a Servlet in Java Web. It deals with the main payment logics and is responsible for forwarding to/from Paypal's EndPoint. complete.jsp and failed.jsp are the webpages to display the result. 
 
